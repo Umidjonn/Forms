@@ -1,0 +1,42 @@
+.box{
+
+  margin: auto;
+  padding: auto;
+  display: flex;
+}
+
+
+.form{
+  padding: 50px;
+}
+
+.div-two{
+  padding: 50px;
+}
+
+label
+{
+  font-family: "Fira Sans", sans-serif;
+}
+
+.failed{
+  margin-left: 300px;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow:  5px 20px blue;
+  background-color: #ffffff;
+}
+
+textarea{
+  width: 379px;
+  height: 196px;
+}
+
+.div-three{
+  padding: 50px;
+}
+
+.btn{
+  background-color: rgb(174, 175, 177);
+}

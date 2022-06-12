@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://echo.htmlacademy.ru">
+</head>
+<body>
+
+  <!-- Har bittasiga alohida "Button" qoyganim sababi button bosganimda backend ishlebdimi yoki yoq'qmi o'shani tekshirish edi shundoqligicha qoldirdim -->
+
+  <div class="box">
+    <fieldset class="failed">
+     <legend style="font-size: 30px; color: rgb(17, 91, 251);"><strong>Shaxsiy malumotlar</strong></legend>
+      <form action="https://echo.htmlacademy.ru" class="form">
+        <label for="iname"> <strong> Ismingiz: </strong></label><input class="input" type="text" name="ism" id="iname" placeholder="Ismingizni kiriting" required>
+        <br>
+        <br>
+        <label for="sname"> <strong> Familyangiz:  </strong></label><input class="input" type="text" name="familya" id="sname" placeholder="Familyangizni kiriting" required>
+        <br>
+        <br>
+        <label for="email"> <strong> Elektron pochta manzilingiz:  </strong></label><input class="input" type="email" name="email" id="email" placeholder="Elektron pochta manzili" required>
+        <br>
+        <br>
+        <label for="textarea"><strong>Qoshimcha malumotlar:</strong>
+        </label>
+        <br>
+        <br>
+        <textarea id="story" name="story"
+          rows="1" cols="33" placeholder="Qo'shimcha malumot yozing">
+
+            </textarea>
+            <br>
+            <br>
+        <button class="btn" type="submit">Yuborish</button>
+      </form>
+      <div class="div-two">
+
+        <form action="https://echo.htmlacademy.ru">
+          <label for="unvon-tanlang"><strong>Hozirgi holatingiz:</strong></label>
+          <input list="qay-holatdasiz" id="unvon-tanlang" name="unvon-tanlang" />
+                <datalist id="qay-holatdasiz">
+            <option value="Uylangan">
+            <option value="Turmushga chiqgan">
+            <option value="Uylanmagan">
+            <option value="Turmushga chiqmagan">
+            <option value="Oilali">
+                </datalist>
+                <br>
+                <br>
+                <label for="daromad">Oylik daromad qancha:</label>
+                <br>
+                <br>
+          <input type="radio" name="money" id="money">800 ming so'm
+          <br>
+          <br>
+          <input type="radio" name="money" id="money">1 mlndan 2.5 mlngacha
+          <br>
+          <br>
+          <input type="radio" name="money" id="money">2.5 mlndan 5 mlngacha
+          <br>
+          <br>
+          <input type="radio" name="money" id="money">Musoffo osmon
+          <br>
+          <br>
+          <button class="btn" type="submit">Yuborish</button>
+        </form>
+      </div>
+
+      <div class="div-three">
+        <form action="https://echo.htmlacademy.ru">
+          <label for="Oqish yoki ishlisizmi"><strong>Hozirda oqisizmi yoki ishlisizmi?</strong></label>
+          <br>
+          <br>
+          <input type="checkbox" id="icheck" name="icheck"> <b>Talaba</b>
+          <input type="checkbox" id="icheck" name="icheck"> <b>Ishchi xodim</b>
+          <input type="checkbox" id="icheck" name="icheck"> <b>Vaqtincha ishsiz</b>
+          <input type="checkbox" id="icheck" name="icheck"> <b>Faqat oqiyman</b>
+          <br>
+          <br>
+          <button class="btn" type="submit">Yuborish</button>
+        </form>
+      </div>
+    </fieldset>
+
+
+  </div>
+</body>
+</html>
